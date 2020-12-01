@@ -16,7 +16,23 @@ class Resume extends Component {
             <p>{work.description}</p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
+      var languages = this.props.data.skills.languages.map(function(skills){
+        var skillImage = 'images/skills/' + skills.img;
+        return <li key={skills.name}>
+            <img className="skillImg" alt={skills.name} src={skillImage} />
+            <h5>{skills.name}</h5>
+            <p>{skills.description}</p>
+          </li>
+      })
+      var frameworks = this.props.data.skills.frameworks.map(function(skills){
+        var skillImage = 'images/skills/' + skills.img;
+        return <li key={skills.name}>
+            <img className="skillImg" alt={skills.name} src={skillImage} />
+            <h5>{skills.name}</h5>
+            <p>{skills.description}</p>
+          </li>
+      })      
+      var tools = this.props.data.skills.tools.map(function(skills){
         var skillImage = 'images/skills/' + skills.img;
         return <li key={skills.name}>
             <img className="skillImg" alt={skills.name} src={skillImage} />
@@ -69,8 +85,24 @@ class Resume extends Component {
             </p>
 
 				<div>
+          <h4>Languages</h4>
+          <hr />
 				   <ul className="skills">
-					  {skills}
+					  {languages}
+					</ul>
+				</div>
+				<div>
+          <h5>Frameworks</h5>
+          <hr />
+				   <ul className="skills">
+					  {frameworks}
+					</ul>
+				</div>
+				<div>
+          <h5>Tools</h5>
+          <hr />
+				   <ul className="skills">
+					  {tools}
 					</ul>
 				</div>
 			</div>

@@ -17,12 +17,17 @@
         "name": "github",
         "url": "https://github.com/Niccoryan0",
         "className": "fa fa-github"
+      },
+      {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/13766095/niccoryan0",
+        "className": "fa fa-stack-overflow"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Technologies I use most:",
-    "education":[
+  "resume": {
+    "skillmessage": "Technologies I use most:",
+    "education": [
       {
         "school": "Code Fellows",
         "degree": "Advanced Software Development in ASP.NET Core",
@@ -36,7 +41,7 @@
         "description": "Relevant coursework (courses that used Python): Introduction to Programming and Problem Solving, Earth and Environmental Data Analysis, MATLAB for Earth Sciences, Introductory GIScience, Hydrogeology"
       }
     ],
-    "work":[
+    "work": [
       {
         "company": "Code Fellows",
         "title": "Tutor & Teaching Assistant",
@@ -56,34 +61,56 @@
         "description": "Worked one on one with grad students to ensure that all of their projects were completed on time. Duties including debugging and optimizing Python code and preparing samples for testing."
       }
     ],
-    "skills":[
-      {
-        "name":"Git",
-        "img": "git.jpg"
-      },
-      {
-        "name": "ReactJs",
-        "img": "react.jpg"
-      },
-      {
-        "name": "Azure Services",
-        "img": "azure.jpg"
-      },
-      {
-        "name": "Node.js",
-        "img": "node.jpg"
-      },
-      {
-        "name": "MongoDB",
-        "img": "mongo.jpg"
-      },
-      {
-        "name": ".NET",
-        "img": "dotnet.jpg"
-      }
-    ]
+    "skills": {
+      "languages": [
+        {
+          "name": "C#",
+          "img": "csharp.jpg"
+        },
+        {
+          "name": "JavaScript",
+          "img": "javascript.jpg"
+        },
+        {
+          "name": "Python",
+          "img": "python.jpg"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": ".NET",
+          "img": "dotnet.jpg"
+        },
+        {
+          "name": "ReactJs",
+          "img": "react.jpg"
+        },
+        {
+          "name": "Django",
+          "img": "django.jpg"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "img": "git.jpg"
+        },
+        {
+          "name": "Azure Services",
+          "img": "azure.jpg"
+        },
+        {
+          "name": "Node.js",
+          "img": "node.jpg"
+        },
+        {
+          "name": "MongoDB",
+          "img": "mongo.jpg"
+        }
+      ]
+    }
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
         "title": "FINDnD",
@@ -104,10 +131,10 @@
         "url": "https://interviewprepapp.azurewebsites.net/"
       },
       {
-        "title":"Deskhub",
-        "category":"Website used to compile daily news and information in one site.",
-        "image":"deskhub.png",
-        "url":"https://github.com/Team-PG/deskhub"
+        "title": "Deskhub",
+        "category": "Website used to compile daily news and information in one site.",
+        "image": "deskhub.png",
+        "url": "https://github.com/Team-PG/deskhub"
       },
       {
         "title": "Beast League",
@@ -117,8 +144,8 @@
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
         "text": "Nicholas was an outstanding team member. He really took on the role of a teacher's assistant from the very beginning all the way back in April/May til the time we graduate in September. He vast array of knowledge, experience and ability to learn something new was well beyond just a student. He also is very creative and comes up with unique amazing ideas on projects and how to approach problems that left some of us in awe. I would recommend Nicholas anytime any day as a Software Engineer whether its ASP.NET Core, Javascript or Python.",
         "user": "Bryant Davis"

@@ -285,6 +285,26 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.skills{
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+}
+
+.skills > * {
+   width:150px;
+   padding: 0 10px;
+   text-align:center;
+}
+
+.skills > li > h5 {
+   width:80%;
+}
+
+.skillImg{
+   width:80%;
+}
+
 .bars {
 	width: 95%;
 	float: left;

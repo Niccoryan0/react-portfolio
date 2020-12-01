@@ -17,8 +17,9 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
+        var skillImage = 'images/skills/' + skills.img;
         return <li key={skills.name}>
-            <img class="skill" alt={skills.name} src={skills.img} />
+            <img className="skillImg" alt={skills.name} src={skillImage} />
             <h5>{skills.name}</h5>
             <p>{skills.description}</p>
           </li>
@@ -67,7 +68,7 @@ class Resume extends Component {
             <p>{skillmessage}
             </p>
 
-				<div className="bars">
+				<div>
 				   <ul className="skills">
 					  {skills}
 					</ul>

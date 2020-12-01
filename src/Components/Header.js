@@ -6,7 +6,6 @@ class Header extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
-      var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -29,11 +28,11 @@ class Header extends Component {
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
       </nav>
-
+      
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{city} based <span>{occupation}</span></h3>
+            <h3>Seattle based <span>{occupation}</span></h3>
             <hr />
             <ul className="social">
                {networks}

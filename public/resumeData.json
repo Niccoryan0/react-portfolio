@@ -87,7 +87,8 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "image":"60%",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
         "name":"Illustrator",

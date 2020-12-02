@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -23,7 +24,6 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
-
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -58,7 +58,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'Noto Sans JP', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -135,7 +135,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'Noto Sans JP', sans-serif;
    width: 100%;
    letter-spacing: 2.5px;
    margin: 0 auto;

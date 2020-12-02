@@ -22,6 +22,11 @@
         "name": "stackoverflow",
         "url": "https://stackoverflow.com/users/13766095/niccoryan0",
         "className": "fa fa-stack-overflow"
+      },
+      {
+        "name": "codewars",
+        "url": "https://www.codewars.com/users/Niccoryan0",
+        "className": "fas fa-user-ninja"
       }
     ]
   },

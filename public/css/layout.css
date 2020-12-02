@@ -128,11 +128,15 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 outline: none;
 }
 
+
+#nav-wrap > ul > li > a:hover{
+   color:lightslategray;
+}
+
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
-   text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;
@@ -294,15 +298,23 @@ ul#nav li.current a { color: #F06000; }
 .skills > * {
    width:150px;
    padding: 0 10px;
+   margin: auto;
+   text-align:center;
 }
 
 .skills > li > h5 {
-   width:80%;
    text-align:center;
 }
 
 .skillImg{
    width:80%;
+   -webkit-transition: -webkit-transform .8s ease-in-out;
+           transition: transform .8s ease-in-out;
+}
+
+img:hover {
+   -webkit-transform: rotateY(360deg);
+           transform: rotateY(360deg);
 }
 
 .bars {
@@ -453,7 +465,6 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
    overflow: hidden;
    position: relative;
 

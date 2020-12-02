@@ -62,9 +62,7 @@ const Header = (props) => {
             Seattle based <span>{occupation}</span>
           </h3>
           <hr />
-          <ul className="social">{networks}
-          <li><a><img src="images/icons/codewars.svg"></img></a></li>
-          </ul>
+          <ul className="social">{networks}</ul>
         </div>
       </div>
 

@@ -1,31 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
 
 /* ------------------------------------------------------------------ */
-/* a. General Styles
+/* General Styles
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
-/* b. Header Styles
+/* Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
@@ -188,7 +170,7 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* About Section
 /* ------------------------------------------------------------------ */
 
 #about {

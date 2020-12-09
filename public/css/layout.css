@@ -59,6 +59,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'Noto Sans JP', sans-serif;
+   font-size:15px;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;

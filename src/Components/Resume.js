@@ -3,7 +3,7 @@ import React from "react";
 const Resume = (props) => {
   if (props.data) {
     var skillmessage = props.data.skillmessage;
-    var education = props.data.education.map(function (education) {
+    var education = props.data.education.map((education) => {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
@@ -15,7 +15,7 @@ const Resume = (props) => {
         </div>
       );
     });
-    var work = props.data.work.map(function (work) {
+    var work = props.data.work.map((work) => {
       return (
         <div key={work.company}>
           <h3>{work.company}</h3>
@@ -27,7 +27,7 @@ const Resume = (props) => {
         </div>
       );
     });
-    var languages = props.data.skills.languages.map(function (skills) {
+    var languages = props.data.skills.languages.map((skills) => {
       var skillImage = "images/skills/" + skills.img;
       return (
         <li key={skills.name}>
@@ -37,7 +37,7 @@ const Resume = (props) => {
         </li>
       );
     });
-    var frameworks = props.data.skills.frameworks.map(function (skills) {
+    var frameworks = props.data.skills.frameworks.map((skills) => {
       var skillImage = "images/skills/" + skills.img;
       return (
         <li key={skills.name}>
@@ -47,7 +47,7 @@ const Resume = (props) => {
         </li>
       );
     });
-    var tools = props.data.skills.tools.map(function (skills) {
+    var tools = props.data.skills.tools.map((skills) => {
       var skillImage = "images/skills/" + skills.img;
       return (
         <li key={skills.name}>

@@ -11,7 +11,6 @@ const App = () => {
   const [resumeData, setResumeData] = React.useState({});
 
   React.useEffect(() => {
-    console.log("Hi");
     $.ajax({
       url: "/resumeData.json",
       dataType: "json",

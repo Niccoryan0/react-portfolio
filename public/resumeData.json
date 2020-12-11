@@ -56,32 +56,54 @@
         "description": "Worked one on one with grad students to ensure that all of their projects were completed on time. Duties including debugging and optimizing Python code and preparing samples for testing."
       }
     ],
-    "skills":[
-      {
-        "name":"Git",
-        "img": "git.jpg"
-      },
-      {
-        "name": "ReactJs",
-        "img": "react.jpg"
-      },
-      {
-        "name": "Azure Services",
-        "img": "azure.jpg"
-      },
-      {
-        "name": "Node.js",
-        "img": "node.jpg"
-      },
-      {
-        "name": ".NET",
-        "img": "dotnet.jpg"
-      },
-      {
-        "name": "SQL",
-        "img": "sql.png"
-      }
-    ]
+    "skills": {
+      "languages": [
+        {
+          "name": "C#",
+          "img": "csharp.jpg"
+        },
+        {
+          "name": "JavaScript",
+          "img": "javascript.jpg"
+        },
+        {
+          "name": "Python",
+          "img": "python.jpg"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": ".NET",
+          "img": "dotnet.jpg"
+        },
+        {
+          "name": "ReactJs",
+          "img": "react.jpg"
+        },
+        {
+          "name": "Django",
+          "img": "django.jpg"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git",
+          "img": "git.jpg"
+        },
+        {
+          "name": "Azure Services",
+          "img": "azure.jpg"
+        },
+        {
+          "name": "Node.js",
+          "img": "node.jpg"
+        },
+        {
+          "name": "SQL",
+          "img": "sql.png"
+        }
+      ]
+    }
   },
   "portfolio":{
     "projects": [
